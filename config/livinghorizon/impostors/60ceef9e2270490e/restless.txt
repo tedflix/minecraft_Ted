@@ -1,0 +1,6 @@
+minecraft:bat 16 1
+minecraft:enderman 16 ffffffffffffffff
+minecraft:spider 16 1
+minecraft:wolf 21 1ff
+minecraft:wolf 15 4
+minecraft:glow_squid 16 7f

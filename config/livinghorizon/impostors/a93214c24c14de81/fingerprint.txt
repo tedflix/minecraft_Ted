@@ -1,0 +1,101 @@
+format 2 tile 64 views 8 mips 4
+game 1.21.1
+pack vanilla
+pack mod_resources
+pack moonlight:merged_pack
+pack mod/sound_physics_remastered:resourcepacks/amplified_aeronautics_propellers
+pack mod/sound_physics_remastered:resourcepacks/create_train_long_range
+pack mod/analogaudio:resourcepacks/3d_cassettes
+pack file/Simple Lower Grass Sides v1.3.0.zip 252776 1794831881118
+pack file/Simple Grass Flowers v2.0.0.zip 208597 1794831869560
+pack file/Visual Titles 1.3.zip 444982 1794831948031
+mod AeroPropBlur-1.21.1-1.0a.jar 22812 1794810887912
+mod Amplified_Nether_26.2_v1.2.16.jar 108430 1794807597392
+mod Analog-Audio-0.1.5-hotfix.1.jar 1726267 1794794864345
+mod AsyncParticles-21.1.4.12+1.21.1.jar 1331328 1794745328317
+mod Chunky-NeoForge-1.4.23.jar 340572 1794818364043
+mod Clumps-neoforge-1.21.1-19.0.0.1.jar 18382 1794795583076
+mod Controlling-neoforge-1.21.1-19.0.5.jar 77555 1785881845338
+mod Create-Warpanautics-1.0.1.jar 227576 1792810243265
+mod Distant Horizons SeedGen 0.9.1 for 1.21.1 NeoForge.jar 1355029 1792806703790
+mod DistantHorizons-3.3.3-1.21.1-fabric-neoforge.jar 28289212 1792806590853
+mod DungeonsArise-1.21.1-2.1.68-release.jar 11842679 1794795790181
+mod DungeonsAriseSevenSeas-1.21.x-1.0.4-neoforge.jar 244981 1794812335436
+mod FarmersDelight-1.21.1-1.3.4.jar 3160490 1794795788916
+mod FpsOverlay-neoforge-1.21.1-5.5.jar 103677 1785881498613
+mod Geophilic v3.7.mod.jar 1115993 1794838964953
+mod Jade-1.21.1-NeoForge-15.10.6.jar 726853 1794812335761
+mod Mod Menu (NeoForge Edition) 1.21.1-1.0.2.jar 933248 1785881833120
+mod MyNethersDelight-1.21.1-1.10.4.1.jar 905059 1794795789077
+mod Nullscape_1.21.x_v1.2.14.jar 355748 1794807597422
+mod Ping-Wheel-1.12.2-neoforge-1.21.1.jar 153528 1792815297228
+mod Resourcify (1.21.1-neoforge)-1.8.7.jar 2946897 1792806585190
+mod SSRD-1.8.8-1.21.1.jar 74365 1794745334423
+mod Searchables-neoforge-1.21.1-1.0.2.jar 77326 1785881845395
+mod SimpleDiscordRichPresence-neoforge-88.0.1-build.54+mc1.21.1.jar 79869 1794795583113
+mod Terralith_1.21.1_v2.6.2_Neoforge.jar 2814865 1794838004128
+mod TravelersTitles-1.21.1-NeoForge-5.1.3.jar 235345 1794807598357
+mod YungsApi-1.21.1-NeoForge-5.1.9.jar 413763 1794807597451
+mod YungsBetterEndIsland-1.21.1-NeoForge-3.1.2.jar 398130 1794807597287
+mod YungsBetterOceanMonuments-1.21.1-NeoForge-4.1.2.jar 1025571 1794807597369
+mod aeronautics_windsound-1.0.1.jar 2090769 1794794864205
+mod aeronauticsweather-1.0.4.jar 17222 1794795509866
+mod aeroportals-1.21.1-1.3.6.jar 551114 1792810671548
+mod architectury-13.0.12-neoforge.jar 584731 1794795583104
+mod asynclogger-2.2.3+1.21.1-neoforge.jar 589640 1792806581464
+mod bedfallback-neoforge-1.21.1-1.2.2.jar 87405 1794794472886
+mod block_explosion_damage-1.2.1(LTS).jar 71441 1794810922444
+mod c2me-neoforge-mc1.21.1-0.4.0-alpha.0.124.jar 3717706 1794745329729
+mod cloth-config-15.0.140-neoforge.jar 1163890 1786153632421
+mod contraption-lights-neoforge-1.21.1-1.6.0.jar 1004275 1794745329422
+mod create-1.21.1-6.0.10.jar 19123767 1786021282621
+mod create-aeronautics-bundled-1.21.1-1.3.2.jar 33123131 1792806591244
+mod create-aeronautics-lift-patch-1.1.0.jar 6360 1794807611524
+mod emi-1.1.24+1.21.1+neoforge.jar 1111538 1792815284855
+mod ends_delight-2.6.1+neoforge.1.21.1.jar 258124 1794795788949
+mod entityculling-neoforge-1.12.1-mc1.21.1.jar 1523607 1794745328413
+mod exposure-neoforge-1.21.1-1.9.21.jar 2206630 1794794863646
+mod ferritecore-7.0.3-neoforge.jar 121559 1785881126655
+mod fzzy_config-0.7.7+fix1+1.21+neoforge.jar 2392720 1794745328548
+mod jei-1.21.1-neoforge-19.70.0.469.jar 4784333 1794745330797
+mod kotlinforforge-5.12.0-all.jar 7279264 1785881178416
+mod krypton_fnp-neoforge-1.21.1-0.2.28.1-1.21.1.jar 1015871 1794827874849
+mod lambdynamiclights-4.8.11+1.21.1.jar 2023375 1792811272373
+mod let_it_walk-0.1.5.jar 730661 1794792544297
+mod lithium-neoforge-0.15.4+mc1.21.1.jar 774220 1785881126918
+mod lithostitched-1.8.1-neoforge-21.1.jar 1023751 1792807411411
+mod livinghorizon-0.16.0-mc1.21.1-neoforge.jar 1398551 1794793020829
+mod lucis-1.21.1-1.0.2.jar 153579 1785881139076
+mod mezz_config-1.21.1-neoforge-0.7.1-standalone.jar 347249 1794745330984
+mod modernfix-neoforge-5.27.27+mc1.21.1.jar 614138 1794745330901
+mod moonlight-1.21.1-3.8.3-neoforge.jar 2327347 1794745331425
+mod moreculling-neoforge-1.21.1-1.0.11.jar 337255 1794745331513
+mod overlapless-1.21.1-1.2.0.jar 16585 1794795788149
+mod particle_core-0.3.3+1.21+neoforge.jar 138375 1785881177532
+mod particular-1.21.1-NeoForge-1.6.1.jar 398461 1794745331628
+mod pause-server-when-empty-1.4.1.jar 41419 1794817290508
+mod pmweather-1.21.1-0.17.20-alpha.jar 28398378 1794745340686
+mod ragdoll_reactions-1.21.1-0.8.0.jar 226703 1794745332479
+mod rolling-tones-0.2.2.jar 120235 1794794864353
+mod sable-neoforge-1.21.1-2.0.6.jar 12986135 1792806588918
+mod sable_player_ragdoll-1.21.1-0.8.1.jar 1529122 1794745331945
+mod sablecleanup-0.3.0.jar 168719 1792814770351
+mod sablejade-1.3.0.jar 301532 1794812335721
+mod searchlights-1.3.1.jar 3470349 1794791705871
+mod shtreimel-neoforge-1.21.1-0.7.0.jar 494360 1794791706740
+mod snassets-1.0.2.jar 35774091 1794797069334
+mod sodium-neoforge-0.8.13+mc1.21.1.jar 1292934 1792806584264
+mod sound-physics-aeronautics-2.0.1.jar 6075478 1794794868265
+mod spark-1.10.124-neoforge.jar 3642581 1794790601451
+mod structblend-1.0.3.jar 338874 1794795788362
+mod super_resolution-neoforge-1.21..1.21.1-0.9.2-alpha.2+opengl.jar 33461335 1792809979454
+mod vaportrails-2.4.0.jar 120313 1794810888207
+mod veil-neoforge-1.21.1-4.5.2.jar 3402614 1794788772541
+mod veil_bonk-1.21.1-0.3.2-neoforge.jar 194810 1794788771678
+mod vista-1.21.1-5.6.9-neoforge.jar 5904041 1794745334351
+mod voicechat-neoforge-1.21.1-2.6.27.jar 4936802 1794795583048
+mod wakes-1.21.1-NeoForge-1.4.1.jar 222430 1792806585868
+mod wits-neoforge-1.3.1.jar 11148 1794812335810
+mod xaerominimap-neoforge-1.21.1-26.6.0.jar 2186351 1792806587727
+mod xaeroworldmap-neoforge-1.21.1-1.47.0.jar 1427078 1792806588693
+mod yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar 1118651 1785881498729

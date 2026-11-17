@@ -1,0 +1,18 @@
+filename = 'livinghorizon-0.16.0-mc1.21.1-neoforge.jar'
+name = 'Living Horizon'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'Living Horizon 0.16.0 (NeoForge 1.21.1)'
+
+[download]
+hash = '21c35c725660429c41275e7740635079e4e8565a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 9457314
+project-id = 1730768

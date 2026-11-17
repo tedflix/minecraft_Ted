@@ -1,0 +1,8 @@
+minecraft:villager 18 ffffffffffffffff
+minecraft:bat 16 1
+minecraft:spider 16 1
+minecraft:fox 18 1
+minecraft:wolf 21 3ff
+minecraft:wolf 15 4
+minecraft:horse 17 10
+minecraft:glow_squid 16 63

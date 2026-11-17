@@ -1,0 +1,17 @@
+{
+  "enabled": false,
+  "structures": true,
+  "trees": true,
+  "waterFeatures": true,
+  "distantTerrain": "AUTO",
+  "extendedDistanceChunks": 0,
+  "extendedDistance": false,
+  "realTerrainRadiusChunks": 64,
+  "shareSeedWithClients": true,
+  "serverGeneration": false,
+  "serverSeeds": {
+    "playmore.tedflixapp.xyz:26769": 2598549309307992722
+  },
+  "realTerrain": false,
+  "defaultsFrom": 8
+}

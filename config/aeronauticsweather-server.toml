@@ -1,0 +1,91 @@
+[wind]
+	# Default: 0.18
+	# Range: 0.0 ~ 100.0
+	wind_force_multiplier = 0.18
+	# Default: 5
+	# Range: 1 ~ 40
+	tick_interval = 5
+	# Default: 0.01
+	# Range: 0.0 ~ 10.0
+	min_wind_length = 0.01
+	# Default: 1.5
+	# Range: 0.1 ~ 50.0
+	max_wind_speed = 1.5
+
+[player_damage]
+	enable = true
+	# Default: 80.0
+	# Range: 0.0 ~ 500.0
+	wind_threshold = 80.0
+	# Default: 1.5
+	# Range: 0.0 ~ 20.0
+	damage_amount = 1.5
+	# Default: 40
+	# Range: 1 ~ 200
+	damage_interval = 40
+
+[lightning]
+	enable = true
+	# Default: 60.0
+	# Range: 0.0 ~ 500.0
+	wind_threshold = 60.0
+	# Default: 400
+	# Range: 1 ~ 100000
+	strike_chance = 400
+
+[tornado]
+	enable_pull = true
+	# Default: 4.0
+	# Range: 0.0 ~ 100.0
+	pull_strength = 4.0
+	# Default: 300.0
+	# Range: 0.0 ~ 900.0
+	pull_strength_multiplier = 300.0
+	# Default: 700.0
+	# Range: 1.0 ~ 3000.0
+	pull_radius = 700.0
+	# Default: 760.0
+	# Range: 1.0 ~ 3000.0
+	swirl_radius = 760.0
+	# Default: 710.0
+	# Range: 1.0 ~ 3000.0
+	lift_radius = 710.0
+	# Default: 240.0
+	# Range: 0.0 ~ 500.0
+	swirl_multiplier = 240.0
+	# Default: 2.0
+	# Range: 0.0 ~ 100.0
+	pull_lift = 2.0
+	# Default: 6.0
+	# Range: 0.0 ~ 500.0
+	pull_lift_multiplier = 6.0
+	# Default: 400.0
+	# Range: 56.0 ~ 1000.0
+	max_lift_height = 400.0
+	# Default: 6.0
+	# Range: 0.1 ~ 50.0
+	max_tornado_speed = 6.0
+
+[block_resistance]
+	enable = true
+	# Default: 1.0
+	# Range: 0.01 ~ 100.0
+	default_resistance = 1.0
+	# Default: 20.0
+	# Range: 0.01 ~ 100.0
+	obsidian = 20.0
+	# Default: 12.0
+	# Range: 0.01 ~ 100.0
+	iron_block = 12.0
+	# Default: 8.0
+	# Range: 0.01 ~ 100.0
+	stone = 8.0
+	# Default: 3.0
+	# Range: 0.01 ~ 100.0
+	wood = 3.0
+	# Default: 0.5
+	# Range: 0.01 ~ 100.0
+	wool = 0.5
+	# Default: 2.0
+	# Range: 0.01 ~ 100.0
+	glass = 2.0

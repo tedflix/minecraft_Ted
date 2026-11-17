@@ -1,0 +1,18 @@
+filename = 'aeronauticsweather-1.0.4.jar'
+name = 'Aeronautics x Protomanly'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.4'
+
+[download]
+hash = '1fdb31a16a9ce7662a2ea433a37cac80e7b5f3532fa97dde8a2345dd414f853a4d9f0318b6330fd1ae0ae522f3d779706ab608ad5f8beda722df3851db739795'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ksDyI7e9/versions/GXyu5XB1/aeronauticsweather-1.0.4.jar'
+
+[update.modrinth]
+mod-id = 'ksDyI7e9'
+version = 'GXyu5XB1'

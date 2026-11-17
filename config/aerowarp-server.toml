@@ -1,0 +1,70 @@
+[warp]
+	#Seconds the drive charges (with the warp effect) before the ship jumps.
+	# Default: 5
+	# Range: 1 ~ 60
+	chargeSeconds = 5
+	#Seconds a drive must cool down after a jump.
+	# Default: 30
+	# Range: 0 ~ 3600
+	cooldownSeconds = 30
+	#Furthest a ship can jump in one warp, in blocks (horizontal, after nether scaling). 0 = no limit.
+	# Default: 0
+	# Range: 0 ~ 100000000
+	maxDistance = 0
+	#When no Y is given, the bottom of the ship arrives this many blocks above the highest ground under it.
+	# Default: 8
+	# Range: 1 ~ 200
+	arrivalHeightAboveGround = 8
+	#New drives start locked: only the player who placed it (and operators) can start a warp. The owner can unlock it in the drive screen.
+	ownerLockByDefault = true
+	#Dimensions a ship can not warp into or out of, for example a creative build world.
+	blockedDimensions = ["multiworld:creative"]
+	#Ships can not land in or above someone else's claim (FTB Chunks or Open Parties and Claims, when installed).
+	#Your own claims, your team or party, and allies are fine. FTB Chunks bypass mode skips the check.
+	respectClaims = true
+
+#Fuel is Warp Fuel fluid (chorus fruit + water in a Create mixer), measured in mB.
+#A jump costs (shipBlocks / 100) x (baseCost + distance / blocksTravelledPerMb + dimensionChangeCost if another world),
+#so a ship twice as big burns twice the fuel. All Warp Drives on a ship share their fuel.
+[fuel]
+	#mB of Warp Fuel one drive can hold.
+	# Default: 8000
+	# Range: 1 ~ 1000000
+	capacityMb = 8000
+	#mB per 100 ship blocks that every jump costs.
+	# Default: 10
+	# Range: 0 ~ 1000000
+	baseCostMbPer100Blocks = 10
+	#Every this many blocks travelled costs 1 mB per 100 ship blocks.
+	# Default: 40
+	# Range: 1 ~ 1000000
+	blocksTravelledPerMb = 40
+	#Extra mB per 100 ship blocks for jumping to another world.
+	# Default: 100
+	# Range: 0 ~ 1000000
+	dimensionChangeCostMbPer100Blocks = 100
+	#No jump costs less than this many mB.
+	# Default: 10
+	# Range: 0 ~ 1000000
+	minimumCostMb = 10
+
+#Cannon fire can knock a charging Warp Drive out before it jumps.
+[disruption]
+	#Turn warp disruption on or off.
+	enabled = true
+	#Projectiles (entity ids, or a whole mod as 'modid') that disrupt a warp when they fly into the ship.
+	projectiles = ["createbigcannons:shot", "createbigcannons:ap_shot", "createbigcannons:ap_shell", "createbigcannons:he_shell", "createbigcannons:shrapnel_shell", "createbigcannons:drop_mortar_shell", "createbigcannons:mortar_stone", "createbigcannons:bag_of_grapeshot", "createbigcannons:ap_autocannon", "createbigcannons:flak_autocannon"]
+	#Explosions at the ship (cannon shells, missile warheads, TNT) disrupt a warp.
+	explosionsDisrupt = true
+	#Smallest explosion that counts (a creeper is 3, TNT is 4, a missile proximity fuze is 2).
+	# Default: 2.0
+	# Range: 0.0 ~ 100.0
+	minExplosionRadius = 2.0
+	#Share of the jump's fuel cost that is burned when a warp is disrupted (0.25 = a quarter).
+	# Default: 0.25
+	# Range: 0.0 ~ 1.0
+	fuelLost = 0.25
+	#Seconds a disrupted drive needs to recover.
+	# Default: 20
+	# Range: 0 ~ 3600
+	cooldownSeconds = 20

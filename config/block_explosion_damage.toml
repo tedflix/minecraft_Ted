@@ -1,0 +1,34 @@
+# Block Explosion Damage Configuration
+# This mod is only needed server-side!
+# If server is running while config is changed, use /block_explosion_damage reload
+
+# Multiplier applied to block hardness to calculate required hits.
+# Higher values = blocks need more hits to break
+defaultHitsMultiplier = 30.0
+
+# Time in ticks before damage heals by 1 hit (20 ticks = 1 second)
+# 6000 ticks = 5 minutes
+# Can be disabled with /gamerule tntBlockDamageDecay false
+damageDecayTime = 60
+
+# Route explosion damage through Sable sub-levels
+# e.g. Making contraptions in create-aeronautics take damage from explosions
+# Requires the Sable mod to do anything
+# Off by default
+sableCompatibilityEnabled = true
+
+# Blocks that shield other blocks from explosion damage
+# Blocks behind these won't take damage from explosions
+# Format: ["minecraft:block_name", ...]
+protectiveBlocks = [
+    "minecraft:barrier", "minecraft:bedrock", "minecraft:chain_command_block", "minecraft:command_block",
+    "minecraft:jigsaw", "minecraft:repeating_command_block", "minecraft:structure_block",
+]
+
+# Override specific blocks to require exact number of hits
+# Format: "minecraft:block_name" = number_of_hits
+# These override the defaultHitsMultiplier calculation
+[customBlockHits]
+"minecraft:crying_obsidian" = 80
+"minecraft:glass" = 5
+"minecraft:obsidian" = 90

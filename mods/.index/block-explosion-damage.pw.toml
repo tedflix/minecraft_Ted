@@ -1,0 +1,18 @@
+filename = 'block_explosion_damage-1.2.1(LTS).jar'
+name = 'Block Explosion Damage'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.2.1(LTS)'
+
+[download]
+hash = '35230b565aff9e313236339feec311e56900d34a07b6456b99a1429f438fda522490e89ebe7407708a8c5cc76acc185680e4683d29a6a8da9a2f79d08cb1c00f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/rUT1fi3Q/versions/uWY54uuz/block_explosion_damage-1.2.1%28LTS%29.jar'
+
+[update.modrinth]
+mod-id = 'rUT1fi3Q'
+version = 'uWY54uuz'
